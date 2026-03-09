@@ -14,8 +14,7 @@ import java.util.List;
 @SpringBootApplication
 public class LearnSpringBootApplication {
 
-	@Autowired
-	private Student student;
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(LearnSpringBootApplication.class, args);
