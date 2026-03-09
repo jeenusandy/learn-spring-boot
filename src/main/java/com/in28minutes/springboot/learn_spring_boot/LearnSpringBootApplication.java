@@ -19,8 +19,6 @@ public class LearnSpringBootApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LearnSpringBootApplication.class, args);
-
-		Student sandeep = new Student("male", "cse","sande@gmail");
 	}
 
 	@RestController
