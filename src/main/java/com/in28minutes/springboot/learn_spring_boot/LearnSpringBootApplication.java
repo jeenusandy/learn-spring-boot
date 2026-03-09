@@ -14,6 +14,15 @@ import java.util.List;
 @SpringBootApplication
 public class LearnSpringBootApplication {
 
+	@Autowired
+	private Student student;
+
+	public static void main(String[] args) {
+		SpringApplication.run(LearnSpringBootApplication.class, args);
+
+		Student sandeep = new Student("male", "cse","sande@gmail");
+	}
+
 	@RestController
 	public static class CourseController {
 
